@@ -1,7 +1,7 @@
 import csv, mechanize, urllib2
 from bs4 import BeautifulSoup
 
-output = open('output.csv', 'w')
+output = open('output3.csv', 'w')
 writer = csv.writer(output)
 writer.writerow(['Incident ID', 'Date Reported', 'Date Incident', 'County', 'TwnRngSec', 'Well Name', 'Oil Volume', 'Oil Units', 'SW Volume', 'SW Units', 'Other Volume', 'Other Units', 'Other Contaminant', 'Contained'])
 
